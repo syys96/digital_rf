@@ -167,3 +167,6 @@ rever/
 
 # dotdirectory
 .directory
+
+.idea
+cmake-build-debug

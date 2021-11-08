@@ -10,6 +10,7 @@ if(CMAKE_BINARY_DIR STREQUAL CMAKE_SOURCE_DIR)
  source directory.")
 endif(CMAKE_BINARY_DIR STREQUAL CMAKE_SOURCE_DIR)
 
+set(PYTHON_EXECUTABLE '/Users/syys/software/anaconda3/bin/python')
 if(PYTHON_EXECUTABLE)
     # handle setting python executable by old variable name
     set(Python_EXECUTABLE ${PYTHON_EXECUTABLE})
